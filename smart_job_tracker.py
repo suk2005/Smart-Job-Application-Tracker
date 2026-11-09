@@ -18,7 +18,6 @@ def add_application():
     role = input("Enter job role: ")
     follow_up = input("Enter follow-up date (YYYY-MM-DD): ")
 
-    #Company and role empty not allowed 
     if company == "" or role == "":
         print("Company and role are required.")
         return
